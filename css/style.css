@@ -1,0 +1,119 @@
+.header{
+    position: fixed;            /* ヘッダーの固定 */
+    top: 0px;                   /* 位置(上0px) */
+    left: 0px;                  /* 位置(右0px) */
+    width: 100%;                /* 横幅100%　*/
+    height: 50px;              /* 縦幅140px */
+    background-color:#000;
+}
+
+img.logo{
+  max-width: 300px;
+  height: auto;
+}
+
+.title {
+	background-color:#ff0;     /* 背景色(黒) */
+	padding:10px 0 20px;       /* 上10px、下20pxをあける */
+	height:30px;              /* 縦の高さ110px */
+	width:100%;                /* 横の幅を100% */
+}
+
+.form{
+    padding:100px 0 100px 0;    /* 上下に160pxを余白を取る */
+}
+
+img.thumb{
+  position: absolute;
+  left:-50px;
+
+}
+
+.cms-thumb{
+  position: relative;
+  width:100%;
+  height:150px;
+  overflow:hidden;
+
+
+}
+
+.btn_action{
+  display: flex;
+  justify-content:flex-start;
+}
+
+#btn_back{
+  border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+  border-style: solid;
+  border-width: 1px;
+  align-items: flex-start;
+  text-align: center;
+  cursor: default;
+  color: buttontext;
+  background-color: buttonface;
+  box-sizing: border-box;
+}
+
+.outer{
+    padding:100px 0 100px 0;    /* 上下に160pxを余白を取る */
+}
+
+.cart-list{
+  width: 1000px;
+  height: auto;
+  border: #808080 solid;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/*.cart-list .cart-img{
+  margin-bottom: 0.8em;
+  float: left;
+  margin: 0 30px;
+  text-decoration: none;
+}*/
+
+p.cart-thumb{
+  width: 200px;
+}
+
+
+
+body {
+font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic'
+}
+
+.flex-parent{
+  display: flex;
+  justify-content: center;
+}
+
+.wapper-thumb{
+  position: relative;
+  /*padding-top: 100px;*/
+  margin-left: 20px;
+  width: 350px;
+  height: auto;
+}
+
+img.pick-img{
+  position: absolute;
+  left:50px;
+}
+
+#nav {
+	margin-top: -80px;
+	margin-left: 200px;
+	list-style: none;
+}
+#nav li {
+	margin-bottom: 0.8em;
+	float: left;
+	margin: 0 30px;
+}
+#nav li a {
+	text-decoration: none;
+}
